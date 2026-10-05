@@ -1,34 +1,34 @@
+# Fiber: my HTML & CSS practice
 
-# Welcome to Codewell! 👋
+Hi, I'm Abdulhafiz. I'm learning front-end development, and this is where I keep the pages I build while I train. The designs come from Codewell, and I build each page by looking at the design images and writing the code myself.
 
-Codewell's aim is to provide you with real-world design templates that you can use to practice your HTML and CSS projects. 
+## The pages (click to open)
 
-Free or paid, all templates are high quality and will make great portfolio pieces.
+1. Sign-up page: the first form I ever built. Name, email, password and a button. [Open it](https://abdullawal200906-cell.github.io/Fiber-Starter-Files/inx.html)
 
-### I've completed the challenge, now what?
+2. Sign-up page, second try: same idea, but I changed the layout and played with the styling. [Open it](https://abdullawal200906-cell.github.io/Fiber-Starter-Files/Design/index.html)
 
-We recommend using one of these two websites to deploy your projects
+3. Landing page with reviews: the biggest one so far. It has a hero section, features, what customers say, and a footer. I used Flexbox to line things up. [Open it](https://abdullawal200906-cell.github.io/Fiber-Starter-Files/Design/indexx.html)
 
-- [GitHub Pages](https://pages.github.com/)
-- [Netlify](https://www.netlify.com/)
+## What I learned so far
 
-They're super easy to setup and you should have your website up and running in no time, just follow their instructions.
+- How to build a form with labels and inputs
+- How Flexbox works (it confused me at first, now it makes sense)
+- A bit of floats in float.css, before I moved to Flexbox
+- How to match a design from a screenshot
+- How to make a page look okay on a phone
 
+## What's in the folders
 
-### Submit your solution to Codewell
+- Design/ has the pages and the design images
+- Assets/ has the icons and pictures
 
-Visit the relevant challenge on [Codewell](https://codewell.cc) and click on 'Submit Solution' right under the challenge.
-Enter all the title, Github repo URL, Live URL (Netlify or GH Pages), and tell the community what challenges you've faced.
+## Credit
 
-### Join our community on Slack
+The design templates belong to [Codewell](https://www.codewell.cc). The code is mine.
 
-If you want more real-time communication, you can visit our community on [Slack](https://join.slack.com/t/codewell-hq/shared_invite/zt-ni8c9g8h-gNYWrmqQ3Uh37dcLg9~LMQ). 
+## Next
 
-### Fonts Used
+JavaScript. I'm starting again from the basics, because I want to really understand it. The plan is to make these pages do things, like checking the form before it's sent.
 
-https://fonts.google.com/specimen/Inter
-
-### ⚠️ Note
-
-Please note that the testimonial section should be scrollable on Desktop to allow more than 3 testimonials.
-
+If you notice something I could do better, please tell me. I'm still learning.
