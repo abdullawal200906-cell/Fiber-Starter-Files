@@ -1,0 +1,24 @@
+*{
+ padding: 0px;
+ margin: 0px;
+ border: none;
+}
+html,body{
+    height: 100%;
+}
+.container{
+display: flex;
+height: 100vh;
+}
+.right{
+    flex: 1;
+    background-color: red;
+    padding: 60px;
+    color: rgb(255, 255, 255);
+}
+.left{
+    flex: 1;
+    background-color: blue;
+    padding: 60px;
+    color: yellow;
+}

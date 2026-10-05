@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 50px 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.action-btns{
+display: flex;
+align-items: center;
+gap: 30px;
+}
+.action-btns button{
+    padding: 15px 25px;
+    border: none;
+    background-color: rgb(10, 10, 221);
+    color:white;
+    border-radius: 6px;
+}
+.action-btns a{
+    text-decoration: none;
+}
+main{
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+}
+.left{
+    flex-basis: 50%;
+
+}
+.right{
+    flex-basis: 50%;
+}
+.right img{
+    width: 90%;
+    padding-left: 40px;
+}
+h1{
+    margin-bottom: 15px;
+}
+h4{
+    margin-bottom: 20px;
+}
+.middle{
+    padding: 50px 100px;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.diversify{
+    margin: 0 auto;
+    padding: 16px 24px;
+    display: flex;
+    background-color: blue;
+}
+.diversify-box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.diversify-left{
+    flex:1;
+}
+.diversify-left h2,
+.diversify-left p{
+    color: #ffffff;
+}
+.diversify-right{
+    flex:1;
+    display: flex;
+    align-items: center;
+}
+.diversify-right img{
+    width: 100%;
+    max-width:100%;
+    height: auto;
+}
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 40px 24px;
+}
+
+.testimonial-left,
+.testimonial-middle,
+.testimonial-right {
+    flex: 1;
+    min-width: 280px;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.testimonial-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.testimonial-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-header .name {
+    font-weight: 600;
+    color: #5B3DF0;
+}
+
+.testimonial-header .revenue {
+    font-size: 12px;
+    color: #888;
+}
+
+.quote {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.btn-outline {
+    display: block;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    color: #5B3DF0;
+    text-decoration: none;
+}
+
+.site-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    background-color: #FBF6EE;
+    padding: 64px 24px 40px;
+}
+
+.footer-brand { flex: 2; min-width: 240px; }
+.footer-sitemap,
+.footer-resources,
+.footer-company,
+.footer-portfolios { flex: 1; min-width: 140px; }
+
+.footer-brand h4,
+.footer-sitemap h5,
+.footer-resources h5,
+.footer-company h5,
+.footer-portfolios h5 {
+    margin-bottom: 12px;
+}
+
+.footer-sitemap ul,
+.footer-resources ul,
+.footer-company ul,
+.footer-portfolios ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-sitemap li,
+.footer-resources li,
+.footer-company li,
+.footer-portfolios li {
+    margin-bottom: 10px;
+}
+
+.footer-sitemap a,
+.footer-resources a,
+.footer-company a,
+.footer-portfolios a {
+    color: #888;
+    text-decoration: none;
+}
